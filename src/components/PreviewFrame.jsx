@@ -79,6 +79,7 @@ class PreviewFrame extends React.Component {
           key,
           this.props.compiledProject.compiledProjectKey,
           {
+            name,
             reason: normalizedError.type,
             text: normalizedError.message,
             raw: normalizedError.message,

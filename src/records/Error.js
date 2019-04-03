@@ -1,6 +1,7 @@
 import {List, Map, Record} from 'immutable';
 
 export default class Error extends Record({
+  name: null,
   row: null,
   column: null,
   reason: null,
